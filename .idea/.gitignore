@@ -6,3 +6,18 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# macOS system files
+.DS_Store
+
+# Python / Node optional (falls du mal Scripts nutzt)
+__pycache__/
+node_modules/
+
+# Logs & temp
+*.log
+*.tmp
