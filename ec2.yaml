@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Simple EC2 in eu-west-1 using fixed AMI
+
+Resources:
+  HTWInstance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      ImageId: "ami-0125fee8356151571"
+      InstanceType: "t2.micro"
